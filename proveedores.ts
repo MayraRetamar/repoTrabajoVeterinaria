@@ -1,4 +1,4 @@
-import GestorDeArchivos from "./gestorArchivos";
+import GestorDeArchivos from "./gestordearchivos";
 
 export default class Proveedores {
     
@@ -26,20 +26,4 @@ export default class Proveedores {
         return this.telefono;
     }
 }
-
-let crearId = ( lista) => {
-    let id :string = " ";
-    for (let i :number = 0; i < 3; i++){
-        let random :number = Math.floor(Math.random() * 10);
-        id += random;
-     } 
-     
-    for (let i :number = 0; i < lista.length; i++){
-        if (id === lista[i].getId()){
-            crearId(lista);
-        }
-     }
- 
-    return id; 
- };
 

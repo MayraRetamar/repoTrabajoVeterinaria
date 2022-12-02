@@ -1,7 +1,10 @@
 import Mascotas from "./claseMascota";
 
 
-export default class Cliente { 
+export default class Cliente {
+    getArregloString() {
+        throw new Error("Method not implemented.");
+    } 
     private id : string;
     private nombre : string;
     private telefono : number;
