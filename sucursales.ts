@@ -1,5 +1,5 @@
-import GestorDeArchivos from "./gestorArchivos";
-import * as ReadLineSync from "readline-sync"
+//import GestorDeArchivos from "./gestorArchivos";
+//import * as ReadLineSync from "readline-sync"
 
 export default class Sucursales {
   

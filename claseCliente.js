@@ -9,6 +9,9 @@ var Cliente = /** @class */ (function () {
         this.listaMascota = listaMascota;
         this.id = id;
     }
+    Cliente.prototype.getArregloString = function () {
+        throw new Error("Method not implemented.");
+    };
     Cliente.prototype.getId = function () {
         return this.id;
     };
